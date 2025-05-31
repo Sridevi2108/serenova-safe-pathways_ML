@@ -1,4 +1,4 @@
-# 🚶‍♀️ Serenova: Safe Pathways ML
+# 🚶‍♀️ Serenova: Safe Pathways 
 
 **Serenova** is an AI-powered women’s safety application that helps users find safe routes, report incidents, and connect with a supportive community. It leverages real-time data and machine learning to provide personalized, reliable safety recommendations.
 
