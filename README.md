@@ -63,6 +63,8 @@ npm start
 Contributions are welcome! Feel free to open issues or submit pull requests to improve Serenova.
 
 📬 Contact
-Created by Sridevi — GitHub Profile
+
+Created by Sridevi — [GitHub Profile](https://github.com/Sridevi2108)
+
 
 
