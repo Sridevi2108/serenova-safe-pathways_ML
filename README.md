@@ -39,7 +39,6 @@ Watch the demo on YouTube:
 | **9. Profile Page** | ![Profile](screenshots/profile.png) |
 | **10. Rate a Route Page** | ![Rate a Route](screenshots/rate_route.png) |
 
-> 📁 Make sure all screenshots are stored inside a `screenshots/` folder in your project root.
 
 ---
 
