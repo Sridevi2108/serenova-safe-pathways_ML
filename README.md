@@ -22,8 +22,8 @@ Watch the demo on YouTube:
 - **ML Technique**:  
   - `XGBoost` is trained on crime type, crime rate, and geolocation data to predict route safety.
 
-![Route Planner](./sereimages/route_planner.png)
-![Route](./sereimages/route.png)
+![Route Safety Score](./sereimages/route_safety_score.png)
+![Rate Route](./sereimages/rate_route.png)
 
 ---
 
@@ -37,7 +37,6 @@ Watch the demo on YouTube:
 - Optionally supports **BERT / Transformer Models**
 
 ![Report Incident](./sereimages/report_incident.png)
-![Report Incident Alt](./sereimages/report_incident1.png)
 ![SOS Alert](./sereimages/sos_alert.png)
 
 ---
@@ -45,7 +44,7 @@ Watch the demo on YouTube:
 ### 3. 💬 Survivor Blog
 - A secure space where survivors can share their stories and support each other.
 
-![Survivor Stories](./sereimages/survivorstories.png)
+![Survivor Blog](./sereimages/survivor_blog.png)
 
 ---
 
@@ -54,7 +53,7 @@ Watch the demo on YouTube:
 - Get interactive **charts and graphs** showing crime rates, types, and trends.
 - Estimate safety levels of locations.
 
-![Crime Data](./sereimages/crimedata.png)
+![Crime Data](./sereimages/crime_data.png)
 
 ---
 
@@ -97,24 +96,25 @@ Serenova delivers real-time safety intelligence, alerts, and guidance for women.
 ## 📁 Folder Structure
 
 /sereimages/
-├── route_planner.png
-├── route.png
-├── report_incident.png
-├── report_incident1.png
-├── sos_alert.png
-├── survivorstories.png
-├── crimedata.png
-├── helpline.png
-├── profile.png
+├── crime_data.png  
+├── dashboard.png  
+├── helpline.png  
+├── homepage.png  
+├── login.png  
+├── profile.png  
+├── rate_route.png  
+├── report_incident.png  
+├── route_safety_score.png  
+├── sos_alert.png  
+├── survivor_blog.png  
 
 ---
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve Serenova. Make sure to follow best practices for code and documentation.
 
-
 ## 📬 Contact
 
-For queries or collaborations, reach out to any team member. We believe safety is a shared responsibility.
+For queries or collaborations, reach out to any team member. We believe safety is a shared responsibility.  
 Sridevi 🔗 [GitHub Profile](https://github.com/Sridevi2108)  
 Abirami  🔗 [GitHub Profile](https://github.com/Abirami0502)
