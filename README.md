@@ -22,8 +22,8 @@ Watch the demo on YouTube:
 - **ML Technique**:  
   - `XGBoost` is trained on crime type, crime rate, and geolocation data to predict route safety.
 
-![Route Safety Score](./sereimages/route_safety_score.png)
-![Rate Route](./sereimages/rate_route.png)
+![Route Safety Score](./screenshots/route_safety_score.png)
+![Rate Route](./screenshots/rate_route.png)
 
 ---
 
@@ -36,15 +36,15 @@ Watch the demo on YouTube:
 - NLP with `TF-IDF` + `Logistic Regression` or `SVM`
 - Optionally supports **BERT / Transformer Models**
 
-![Report Incident](./sereimages/report_incident.png)
-![SOS Alert](./sereimages/sos_alert.png)
+![Report Incident](./screenshots/report_incident.png)
+![SOS Alert](./screenshots/sos_alert.png)
 
 ---
 
 ### 3. 💬 Survivor Blog
 - A secure space where survivors can share their stories and support each other.
 
-![Survivor Blog](./sereimages/survivor_blog.png)
+![Survivor Blog](./screenshots/survivor_blog.png)
 
 ---
 
@@ -53,7 +53,7 @@ Watch the demo on YouTube:
 - Get interactive **charts and graphs** showing crime rates, types, and trends.
 - Estimate safety levels of locations.
 
-![Crime Data](./sereimages/crime_data.png)
+![Crime Data](./screenshots/crime_data.png)
 
 ---
 
@@ -61,8 +61,8 @@ Watch the demo on YouTube:
 - Quick access to helplines.
 - Profile management for safety alerts and communication.
 
-![Helpline](./sereimages/helpline.png)
-![Profile](./sereimages/profile.png)
+![Helpline](./screenshots/helpline.png)
+![Profile](./screenshots/profile.png)
 
 ---
 
@@ -95,7 +95,7 @@ Serenova delivers real-time safety intelligence, alerts, and guidance for women.
 
 ## 📁 Folder Structure
 
-/sereimages/
+/screenshots/
 ├── crime_data.png  
 ├── dashboard.png  
 ├── helpline.png  
