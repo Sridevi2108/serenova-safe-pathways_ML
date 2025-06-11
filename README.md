@@ -1,10 +1,12 @@
-
-# 🚶‍♀️ Serenova: Safe Pathways
-
-**Serenova** is an AI-powered women’s safety application that helps users find safe routes, report incidents, and connect with a supportive community. It leverages real-time data and machine learning to provide personalized, reliable safety recommendations.
+# 🌸 Serenova: Safe Steps for Women
 
 ---
 
+## 🚨 Problem Description
+
+"**Serenova: Safe Steps for Women**" is a safety-focused application that uses machine learning to enhance women's security. It offers intelligent route planning, risk classification, crime data visualization, and a survivor community space. Real-time and historical data are used to generate safety insights and enable emergency responses.
+
+---
 ## 🎥 Project Demo
 
 Watch the demo on YouTube:  
@@ -12,99 +14,107 @@ Watch the demo on YouTube:
 
 ---
 
-## 🌟 Features
+## 🌟 Core Features
 
-- 🧠 **AI-powered Safe Route Planner** using real-time crime data, lighting, and crowd density  
-- 🛡️ **Anonymous Incident Reporting** with safety heatmaps  
-- ✍️ **Survivor Storytelling Blog** for sharing experiences and healing  
-- 🚨 **Emergency SOS and Live Location Tracking**  
-- 🌍 **Crowdsourced Route Ratings and Safety Tips**  
-- ⭐ **Rate a Route** to share feedback and help others choose safer paths  
-- 💡 **Intuitive and User-Friendly Interface**
+### 1. 🗺️ Smart Route Planning with Safety Score
+- Users input source and destination.
+- System displays multiple route options with a **Safety Score** based on district-wise crime data in India.
+- **ML Technique**:  
+  - `XGBoost` is trained on crime type, crime rate, and geolocation data to predict route safety.
+
+![Route Planner](./sereimages/route_planner.png)
+![Route](./sereimages/route.png)
 
 ---
 
-## 📸 Project Screenshots
+### 2. 🚨 Incident Reporting and Risk Classification
+- Accepts **natural language** descriptions of incidents like *“someone is following me”*.
+- Classifies risk level as **Low**, **Medium**, or **High**.
+- Sends **emergency alerts** to police if risk is high.
 
-| Screen | Preview |
-|--------|---------|
-| **1. Home Page** | ![Home Page](screenshots/homepage.png) |
-| **2. Login Page** | ![Login Page](screenshots/login.png) |
-| **3. Dashboard Page** | ![Dashboard Page](screenshots/dashboard.png) |
-| **4. Safe Route with Safety Score** | ![Route Planner](screenshots/route_safety_score.png) |
-| **5. Report Incident Page** | ![Report Incident](screenshots/report_incident.png) |
-| **6. Survivor Blog Page** | ![Survivor Blog](screenshots/survivor_blog.png) |
-| **7. Crime Data Page** | ![Crime Data](screenshots/crime_data.png) |
-| **8. Helpline Page** | ![Helpline](screenshots/helpline.png) |
-| **9. Profile Page** | ![Profile](screenshots/profile.png) |
-| **10. Rate a Route Page** | ![Rate a Route](screenshots/rate_route.png) |
+**ML Techniques Used:**
+- NLP with `TF-IDF` + `Logistic Regression` or `SVM`
+- Optionally supports **BERT / Transformer Models**
 
+![Report Incident](./sereimages/report_incident.png)
+![Report Incident Alt](./sereimages/report_incident1.png)
+![SOS Alert](./sereimages/sos_alert.png)
+
+---
+
+### 3. 💬 Survivor Blog
+- A secure space where survivors can share their stories and support each other.
+
+![Survivor Stories](./sereimages/survivorstories.png)
+
+---
+
+### 4. 📊 Crime Data Visualization
+- Search any city/district.
+- Get interactive **charts and graphs** showing crime rates, types, and trends.
+- Estimate safety levels of locations.
+
+![Crime Data](./sereimages/crimedata.png)
+
+---
+
+### 5. 📞 Emergency Helpline & Profile Management
+- Quick access to helplines.
+- Profile management for safety alerts and communication.
+
+![Helpline](./sereimages/helpline.png)
+![Profile](./sereimages/profile.png)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Python** – Backend and ML models  
-- **React.js** – Frontend web app  
-- **MongoDB** – Database for user data and incident reports  
-- **Flask** – Backend API server  
-- **Machine Learning** – For route safety prediction and analysis  
+- **Frontend**: React.js  
+- **Backend**: Python  
+- **Map Integration**: Google Maps API  
+- **Database**: MongoDB  
+- **SMS Alerts**: Twilio API  
+- **Datasets Used**:
+  - District-wise crime data (1 lakh+ entries)
 
 ---
 
-## 📁 Project Structure
+## 🤖 Machine Learning Models
 
-```
-/backend      # Flask API server and ML model code  
-/frontend     # React.js web application  
-/templates    # HTML templates (if applicable)  
-/screenshots  # Screenshots for documentation  
-/venv         # Python virtual environment  
-```
+- `XGBoost`: Route safety prediction
+- `Logistic Regression` / `SVM`: Risk classification
+- `TF-IDF` / `CountVectorizer`: Text feature extraction
+- `BERT` (optional): Advanced NLP
 
 ---
 
-## ⚙️ Installation & Setup
+## 🎯 Project Impact
 
-### ✅ Prerequisites
-
-- Python 3.8+  
-- Node.js and npm  
-- MongoDB running locally or hosted
-
-### 🚀 Backend Setup
-
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-```
-
-### 🌐 Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm start
-```
+Serenova delivers real-time safety intelligence, alerts, and guidance for women. Through seamless UI and AI, it empowers users to make safer choices, promotes awareness, and bridges the gap between danger and support.
 
 ---
 
+## 📁 Folder Structure
+
+/sereimages/
+├── route_planner.png
+├── route.png
+├── report_incident.png
+├── report_incident1.png
+├── sos_alert.png
+├── survivorstories.png
+├── crimedata.png
+├── helpline.png
+├── profile.png
+
+---
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve Serenova. Make sure to follow best practices for code and documentation.
 
----
 
 ## 📬 Contact
 
-Created by **Sridevi**  
-🔗 [GitHub Profile](https://github.com/Sridevi2108)  
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+For queries or collaborations, reach out to any team member. We believe safety is a shared responsibility.
+Sridevi 🔗 [GitHub Profile](https://github.com/Sridevi2108)  
+Abirami  🔗 [GitHub Profile](https://github.com/Abirami0502)
